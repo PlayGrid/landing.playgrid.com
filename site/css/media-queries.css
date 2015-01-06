@@ -1,0 +1,411 @@
+/* ---------------------------------------------------------------------- */
+/*	Version 2048px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 2048px) {
+    section.slider .container-fluid .console a.link_demo{
+        font-size:30px;
+        left: 36%;
+    }
+}
+
+
+/* ---------------------------------------------------------------------- */
+/*	Version 1170px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 1170px) {
+    /* Button demo download ----------------------*/
+    section.slider .container-fluid .console a.link_demo{
+        font-size:30px;
+        left: 36%;
+    }
+}
+
+
+
+/* ---------------------------------------------------------------------- */
+/*	Version 1024px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 1024px) {
+    /* Button demo download ----------------------*/
+    section.slider .container-fluid .console a.link_demo{
+        font-size:18px;
+        left: 36%;
+    }
+    /*Buttom slider gallery-----------------------------*/
+    section.gallery a.mb-scrollButtons.mb-left{
+
+    }
+    section.gallery a.mb-scrollButtons.mb-right{
+
+    }
+	/* Testimonials ----------------------------------*/
+	section.testimonials li .console_customer img {
+		width:auto;
+	}
+	section.testimonials .console_customer .content_testimonial {
+		width:auto;
+	}
+
+	
+	/* Quote -----------------------------------------*/
+	section.quote ul.slider_quote h1 {
+		line-height: 62px;
+		font-size: 52px;
+	}
+}
+
+
+
+
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 767px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 767px) {
+    /* Button demo download ----------------------*/
+    section.slider .container-fluid .console a.link_demo{
+        font-size:16px;
+        left: 36%;
+    }
+    /*Button slider gallery-----------------------------*/
+    section.gallery a.mb-scrollButtons.mb-left{
+
+    }
+    section.gallery a.mb-scrollButtons.mb-right{
+
+    }
+	/* Main Menu -------------------------------------*/
+	a.brand{
+		text-align:center;
+		float:none!important;
+	}
+	a.brand img {
+		width:auto;
+	}
+	header .navbar .nav {
+        display: none!important;
+    }
+    #tinynav1{
+        display: block!important;
+    }
+	
+	/* Newsletter form --------------------------------------*/
+	section.newsletter form fieldset input {
+		height: 53px;
+	}
+	
+	/* Features --------------------------------------*/
+	section.features ul.services li {
+		width:100%;
+	}
+	
+	/* Information -----------------------------------*/
+	.content_info .bx-wrapper .bx-viewport ul li div.container_vid {
+		width:100%;
+	}
+	
+	/* Pricing Table ---------------------------------*/
+	section.pricing .pricing-table .box_span {
+		width:100%;
+	}
+
+	
+	/* Testimonials ----------------------------------*/
+	section.testimonials li .console_customer img {
+		width:auto;
+	}
+	section.testimonials .console_customer .content_testimonial {
+		width:auto;
+	}
+	
+	/* Quote -----------------------------------------*/
+	section.quote ul.slider_quote h1 {
+		line-height: 57px;
+		font-size: 32px;
+	}
+	
+}
+
+
+
+
+
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 600px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 600px) {
+
+    /* Button demo download ----------------------*/
+    section.slider .container-fluid .console a.link_demo{
+        font-size:14px;
+        left: 36%;
+    }
+	/* Main Menu -------------------------------------*/
+	a.brand{
+		text-align:center;
+		float:none!important;
+	}
+	a.brand img {
+		width:auto;
+	}
+	header .navbar .nav {
+        display: none!important;
+    }
+    #tinynav1{
+        display: block!important;
+    }
+	
+	/* Pricing Table ---------------------------------*/
+	section.pricing .pricing-table .box_span {
+		width:100%;
+	}
+    /*Button slider gallery-----------------------------*/
+    section.gallery a.mb-scrollButtons.mb-left{
+
+    }
+    section.gallery a.mb-scrollButtons.mb-right{
+
+    }
+	/* Testimonials ----------------------------------*/
+	section.testimonials li .console_customer img {
+		width:auto;
+	}
+	section.testimonials .console_customer .content_testimonial {
+		width:auto;
+	}	
+
+}
+
+
+
+
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 568px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 568px) {
+    /* Button demo download ----------------------*/
+    section.slider .container-fluid .console a.link_demo{
+        font-size:12px;
+        left: 36%;
+    }
+	/* Main Menu -------------------------------------*/
+	a.brand{
+		text-align:center;
+		float:none!important;
+	}
+	a.brand img {
+		width:auto;
+	}
+
+    header .navbar .nav {
+        display: none!important;
+    }
+    #tinynav1{
+        display: block!important;
+    }
+	section.slider .container-fluid .content_title h1.title_main {
+		font-size:20px;
+		line-height:30px;
+	}
+	section.slider .container-fluid .content_title h4 {
+		font-size:16px;	
+		line-height:26px;
+	}
+	form h1 {
+		font-size:20px;
+		line-height:30px;
+	}
+
+	h1.title {
+		font-size:26px!important;
+		line-height:36px!important;
+	}
+	
+	/* Pricing Table ---------------------------------*/
+	section.pricing .pricing-table .box_span {
+		width:100%;
+	}
+	section.pricing .pricing-table ul.nav-stacked li.nav-header h2 {
+		font-size:28px;
+		line-height:28px;
+	}
+	section.pricing .pricing-table ul.nav-stacked li.price {
+		font-size:26px;
+		line-height:36px;
+	}
+	section.pricing .pricing-table ul.nav-stacked li {
+		font-size:16px;
+		line-height:26px;
+	}
+    /*Button slider gallery-----------------------------*/
+    section.gallery a.mb-scrollButtons.mb-left{
+
+    }
+    section.gallery a.mb-scrollButtons.mb-right{
+
+    }
+	
+	/* Testimonials ----------------------------------*/
+	section.testimonials li .console_customer img {
+		width:auto;
+	}
+	section.testimonials .console_customer .content_testimonial {
+		width:auto;
+	}
+
+}
+
+
+
+
+
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 480px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 480px) {
+    /* Button demo download ----------------------*/
+    section.slider .container-fluid .console a.link_demo{
+        font-size:10px;
+        left: 36%;
+    }
+	/* Main Menu -------------------------------------*/
+	a.brand{
+		text-align:center;
+		float:none!important;
+	}
+	a.brand img {
+		width:auto;
+	}
+
+    header .navbar .nav {
+        display: none!important;
+    }
+    #tinynav1{
+        display: block!important;
+    }
+	section.slider .container-fluid .content_title h1.title_main {
+		font-size:20px;
+		line-height:30px;
+	}
+	section.slider .container-fluid .content_title h4 {
+		font-size:16px;	
+		line-height:26px;
+	}
+	form h1 {
+		font-size:20px;
+		line-height:30px;
+	}
+
+    /*Button slider gallery-----------------------------*/
+    section.gallery a.mb-scrollButtons.mb-left{
+
+    }
+    section.gallery a.mb-scrollButtons.mb-right{
+
+    }
+	h1.title {
+		font-size:26px!important;
+		line-height:36px!important;
+	}
+	
+	
+	/* Testimonials ----------------------------------*/
+	section.testimonials li .console_customer img {
+		width:auto;
+	}
+	section.testimonials .console_customer .content_testimonial {
+		width:auto;
+	}
+	
+}
+
+
+
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 320px
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 320px) {
+    /* Button demo download ----------------------*/
+    section.slider .container-fluid .console a.link_demo{
+        font-size:9px;
+        left: 33%;
+    }
+	/* Main Menu -------------------------------------*/
+	a.brand{
+		text-align:center;
+		float:none!important;
+	}
+	a.brand img {
+		width:auto;
+	}
+
+    header .navbar .nav {
+        display: none!important;
+    }
+    #tinynav1{
+        display: block!important;
+    }
+	section.slider .container-fluid .content_title h1.title_main {
+		font-size:20px;
+		line-height:30px;
+	}
+	section.slider .container-fluid .content_title h4 {
+		font-size:16px;	
+		line-height:26px;
+	}
+	form h1 {
+		font-size:20px;
+		line-height:30px;
+	}
+	
+	h1.title {
+		font-size:26px!important;
+		line-height:36px!important;
+	}
+	
+	/* Features --------------------------------------*/
+	section.features ul.services li {
+		width:100%;
+	}
+	section.features ul.services li .service .service_description h4 {
+		font-size:16px;
+		line-height:26px;
+	}
+	section.features ul.services li .service .service_description p {
+		font-size:12px;
+		line-height:22px;
+	}
+	
+	/* Testimonials ----------------------------------*/
+	section.testimonials li .console_customer img {
+		width:auto;
+	}
+	section.testimonials .console_customer .content_testimonial {
+		width:auto;
+	}
+    /*Button slider gallery-----------------------------*/
+    section.gallery a.mb-scrollButtons.mb-left{
+
+    }
+    section.gallery a.mb-scrollButtons.mb-right{
+
+    }
+	/* Quote -----------------------------------------*/
+	section.quote ul.slider_quote h1 {
+		line-height: 32px;
+		font-size: 22px;
+	}
+
+}

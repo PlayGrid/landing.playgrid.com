@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+/* ============================== */
+/* 
+	Title: Celegorm - Responsive Landing Page
+	Color: red
+*/
+/* ============================== */
+
+
+.bg_color2{
+    background-color: #ff0000;
+}
+
+header .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+    color: #ff0000;
+}
+
+header .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    color: #ff0000;
+}
+
+section.newsletter{
+    background-image: url("../../img/bg_notified-red.png");
+	background-color: #ff0000;
+}
+
+section.newsletter form .btn-custom, section.cta a {
+    background-color: #9e0000;
+}
+
+section.newsletter form .btn-custom:hover, section.cta a:hover{
+	 background-color: #cc0000;
+}
+
+span.underline {
+    background-color: #ff0000;
+}
+
+section.features .services li .service:hover .service_description h4{
+    color: #ff0000;
+}
+
+section.features .services li .service:hover .service_description p{
+    color: #ff0000;
+}
+
+.content_info .control_info li a:hover i{
+    color: #ff0000;
+}
+
+section.pricing .pricing-table a.btn-box:hover {
+    background-color: #ff0000;
+}
+
+section.pricing .pricing-table .box_span:hover .nav-stacked li.nav-header{
+    background: #ff0000;
+}
+
+section.testimonials h5{
+    color: #ff0000;
+}
+
+.content_info .list_info li{
+    color: #ff0000;
+}
+
+section.testimonials .bx-wrapper .bx-pager.bx-default-pager a:hover, section.testimonials .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: none repeat scroll 0 0 #ff0000;
+}
+
+section.quote .autor_quote{
+    border-bottom-color: #ff0000;
+    border-top-color: #ff0000;
+}
+
+section.team .content_team .social_member li a:hover{
+    background: #ff0000;
+}
+
+section.slider .container-fluid .console a.link_demo{
+    background: #ff0000;
+	border: 7px solid rgb(255, 0, 0);
+}
+
+section.slider .container-fluid .console a.link_demo:hover{
+    border: 7px solid rgba(255, 0, 0, .5);
+}
+
+section.cta{
+	background-color:#ff0000;
+	background-image: url("../../img/bg_notified-red.png");
+}
+
+ul.social-circled li:hover a {
+    color: #ff0000;
+}
+
+footer .content_twitter .jtwt_date{
+    color: #ff0000;
+}
+
+
+/*Images*/
+
+.rslides_nav.next{
+    background-image: url("../../img/slider/arrows/next-red.png");
+}
+
+.rslides_nav.prev{
+	background-image: url("../../img/slider/arrows/prev-red.png");
+}
+
+.content_info h5.sub_title{
+	background-image: url("../../img/small-title-line-red.png");
+}
+
+section.gallery a.mb-scrollButtons.mb-right{
+    background-image: url("../../img/slider/arrows/next-red.png");
+}
+
+section.gallery a.mb-scrollButtons.mb-left{
+    background-image: url("../../img/slider/arrows/prev-red.png");
+}
+
+footer .bx-wrapper a.bx-prev{
+	background-image: url("../../img/slider_twitter/prev-red.png");
+}
+
+footer .bx-wrapper a.bx-next {
+	background-image: url("../../img/slider_twitter/next-red.png");
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
