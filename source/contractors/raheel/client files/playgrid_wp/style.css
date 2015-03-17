@@ -1,0 +1,876 @@
+/*
+Theme Name: Playgrid-Landing Page 2
+Theme URI: http://landing.playgrid.com/
+Author: Raheel Javed
+Author URI: 
+Description: Landing Page for PlayGrid.com
+Version: 1.0
+License: Copyright Playgrid 2015
+Text Domain: Playgrid-Landing Page
+*/
+
+
+/*PlayGrid Styling*/
+
+@charset "utf-8";
+
+/* ============================== 
+ Title: PlayGrid-Single Page Landing
+ ============================== */
+
+
+/* ---------------------------------------------------------------------- */
+/*	Import styles
+/* ---------------------------------------------------------------------- */
+
+/*Font icons using Fontello*/
+@import url("lib/fontello/css/fontello.css");
+@import url("lib/fontello/css/fontello-ie7.css");
+
+/*Google Fonts Open Sans*/
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300");
+
+/* Standard Styles --------------------------------------------------------*/
+
+body{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	line-height:22px;
+	color:#999999;
+	position: relative;
+	font-weight:normal;	 
+	background:#fff;
+    padding-left: 0;
+    padding-right: 0;
+}
+a{
+	color: #8f939e;
+	outline: 0;
+}
+a:hover{
+	outline: 0;
+}
+a:hover, a:active, a:focus {
+ outline: 0;
+ text-decoration: none;	
+}
+p{
+	margin:0 0 20px 0;
+	padding: 0;	
+}
+
+
+h1,h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	line-height: 30px;
+	padding: 5px 0 15px 0;	
+	margin: 0;	
+}
+h1.title{
+    text-align: center;
+    margin-bottom: 46px;
+    line-height:58px;
+    color:#313538;
+    font-size:48px;
+    font-weight: bold;
+}
+h2 {font-size:36px;}
+h3 {font-size:24px;}
+h4 {font-size:22px;}
+h5 {font-size:18px;}
+h6 {font-size:14px;}
+
+img{
+	width: 100%;
+  
+}
+iframe{
+    border: 0;
+}
+/************bg_colors********************/
+.bg_color1{
+    background-color: #393d46;
+}
+
+.bg_color3{
+    background-color: #ffffff;
+}
+/************end bg_colors****************/
+
+/* General ---------------------------------------*/
+
+.align_right{
+    float: right;
+}
+.align_left{
+    float: left;
+}
+.top_scroll{
+    z-index: 5000;
+    background: none repeat scroll 0 0 #186CB4;
+    border-radius: 0;
+    right: 2%;
+    border: none;
+    opacity: 0.4;
+    outline: 0;
+    display: none;
+}
+.top_scroll i{
+    width: auto;
+
+}
+
+
+
+/*  Transitional elements
+================================================== */
+section.pricing .pricing-table a.btn-box, section.cta a, section.newsletter form .btn-custom{ 
+	-webkit-transition: 0.3s all ease;
+	-moz-transition: 0.3s all ease;
+	-o-transition: 0.3s all ease;
+	-ms-transition: 0.3s all ease;
+	transition: 0.3s all ease;
+}
+
+
+/* Head ------------------------------------------*/
+.sticky-wrapper{
+    height:100px !important;
+}
+
+header.sticky{
+    height: 100px;
+    
+}
+
+header.sticky.stuck{
+    position: fixed;
+    height:100px;
+    z-index:9999;
+    width:100%;
+}
+.navbar .brand {
+	width: 208px;
+	display: block;
+}
+
+.brand{
+    float:left;
+}
+.brand img{
+    width:208px;
+    display: block;
+    margin-top:30px;
+}
+/* Main Menu & Mobile Menu-------------------------------------*/
+#tinynav1{
+        display: none;
+    }
+header .navbar .nav{
+    margin: 5px 0 0 0;
+	display: block;
+}
+header .navbar .nav.align_right{
+    float: right;
+}
+header .navbar .navbar-inner {
+    background-color: transparent;
+    background-image: none;
+    background-repeat: repeat-x;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.067);
+    min-height: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    filter:none;
+}
+
+
+
+header .nav > li{
+    display:inline-block;
+}
+
+header .navbar{
+    position: relative;
+    margin: 20px 0;
+}
+
+header .navbar .nav > li{
+    position: relative;
+    margin-left: 8px;
+}
+header .navbar .nav > li > a {
+    color: #8f939e;
+    float: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-shadow: 0 0px 0 #8F939E;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    font-size: 16px;
+}
+header .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+    background-color: transparent;
+    text-decoration: none;
+}
+header .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    background-color: transparent;
+    box-shadow: none;
+    text-decoration: none;
+}
+header .tinynav1{
+    width: 100%;
+}
+span.underline {
+    display: block;
+    height: 1px;
+    margin-left: 100%;
+    position: absolute;
+    opacity: 1;
+    width: 0;
+    left: 0;
+    z-index: 9998;
+}
+
+/* Main Home Area OR Slider Area ----------------------------------------*/
+section.section_slider{
+    height: 793px;
+    background: url("img/slider-bg.jpg") no-repeat scroll 0 0 transparent;
+	  background-size: 100% 100%;
+    
+}
+section.slider{
+    width: 100%;
+    position: absolute;
+    margin-top:35px;
+}
+
+section.slider .content_title{
+     text-align: center;
+	   margin-top:38px;
+     padding-bottom: 30px;
+ }
+
+section.slider h1.title_main{
+  color: #fff;
+	font-size: 48px;
+  font-weight: bold;
+}
+section.slider .title_main span{
+    font-weight: 100;
+}
+section.slider .content_title h4{
+    font-weight: 100;
+    color: #fff;
+}
+section.slider .console{
+    position: relative;
+}
+section.slider .console img {
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+	float: none;
+  padding-bottom: 30px;
+}
+
+section.slider.fixed {
+    position: fixed;
+    top:30px;
+	  bottom: 0;
+}
+#second_area{
+    position: relative;
+    z-index: 2222;
+}
+
+/* Newsletter ------------------------------------*/
+section.newsletter{
+	background-position:0 0;
+	background-repeat: repeat-x;
+	padding: 0;
+	text-align:center;
+    max-height: 233px;
+    height: 233px;
+}
+
+section.newsletter h1{
+    color: #fff;
+    font-weight: 100;
+	  margin: 30px 0 20px 0;
+}
+
+section.newsletter .btn-custom {
+	background-image:none;
+    color: #fff;
+    text-shadow: 0 0 0 ;
+    -webkit-font-smoothing: antialiased;
+    border-radius: 4px;
+	box-shadow: none;
+    border: none;
+    font-size: 38px;
+    font-weight: bold;
+    margin-left: 7px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+	width: auto;
+	height: auto;
+    background-color: rgba(79, 45, 0, 0.26);
+    margin-top: 63px;
+      
+}
+
+section.newsletter .btn-custom:hover{
+    background-color: rgba(79, 45, 0, 0.46);
+}
+
+
+
+/* Features --------------------------------------*/
+section.features{
+    background: #ffffff;
+    position: relative;
+    z-index: 2222;
+}
+section.features .row_experience{
+    border-bottom: 1px solid #E3E3E3;
+
+}
+
+.sprite {
+    background: url("img/feactures/index.png") no-repeat;
+    display: inline-block;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+}
+
+.sprite-chat-png {
+    width: 100px;
+    height: 100px;
+    background-position: -111px -222px;
+}
+
+.sprite-cloud-png {
+    width: 100px;
+    height: 100px;
+    background-position: -0px -222px;
+}
+
+.sprite-fields-png {
+    width: 100px;
+    height: 100px;
+    background-position: -222px -111px;
+}
+
+.sprite-file-png {
+    width: 100px;
+    height: 100px;
+    background-position: -222px -0px;
+}
+
+.sprite-medall-png {
+    width: 100px;
+    height: 100px;
+    background-position: -111px -111px;
+}
+
+.sprite-security-png {
+    width: 100px;
+    height: 100px;
+    background-position: -0px -111px;
+}
+
+.sprite-stat-png {
+    width: 100px;
+    height: 100px;
+    background-position: -111px -0px;
+}
+
+.sprite-user-png {
+    width: 100px;
+    height: 100px;
+    background-position: -0px -0px;
+}
+
+
+/**********************effect**************************/
+section.features .services{
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align:center;
+    position: relative;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+section.features .services li{
+    float: left;
+    border: 1px solid #e3e3e3;
+    border-right: 1px solid #E0DEE3;
+    margin-left: 0;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+	width: 25%;
+}
+section.features .services li.last{
+    border-right: 1px solid white;
+}
+section.features .service a{  width: 100%; height: 100%; display: block; color: #333; position: relative;}
+section.features .services li .service{
+    background-color: white;
+/*     padding: 0 8% 8% 8%; */
+    margin: 2.5% auto;
+    display: block;
+    cursor: default;
+}
+
+section.features .services li .service .row_service{
+    height: auto;
+    display: block;
+    text-align: center;
+}
+
+section.features .services li .service .service_img{
+    line-height: 24px;
+    color: #000000;
+    position: relative;
+    width: 100%;
+    padding: 10px 0 0;
+    text-align: center;
+}
+
+section.features .services li .service .service_description{
+    padding-top: 0px;
+    height: auto;
+}
+
+section.features .services .service_description h4{
+    text-transform: none;
+    margin: 0 0 0px;
+    font-size: 24px;
+    color: #313538;
+    text-align: center;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+
+section.features .services .service_description p{
+    font-size: 14px;
+    padding: 0px;
+    position: relative;
+    margin: 0;
+    width: 100%;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    color: #999999;
+}
+
+section.features .services li .service:hover .service_description{
+    background: white;
+}
+section.features .services li .service:hover .service_img{
+    color: #e5e5e5;
+    margin-top: 2px;
+}
+section.features .services li .service:hover .sprite-chat-png {
+    background-position: -111px -233px;
+    color: #e5e5e5;
+}
+section.features .services li .service:hover .sprite-cloud-png{
+    color: #e5e5e5;
+    background-position: -0px -233px;
+}
+section.features .services li .service:hover .sprite-user-png{
+    color: #e5e5e5;
+    background-position: -0px -11px;
+}
+section.features .services li .service:hover .sprite-stat-png{
+    color: #e5e5e5;
+    background-position: -111px -11px;
+}
+section.features .services li .service:hover .sprite-security-png{
+    color: #e5e5e5;
+    background-position: -0px -122px;
+}
+section.features .services li .service:hover .sprite-file-png{
+    color: #e5e5e5;
+    background-position: -222px -11px;
+}
+section.features .services li .service:hover .sprite-medall-png{
+    color: #e5e5e5;
+    background-position: -111px -122px;
+}
+section.features .services li .service:hover .sprite-fields-png{
+    color: #e5e5e5;
+    background-position: -222px -122px;
+}
+section.features .service-content {
+	position: relative; 
+	left: 0px; 
+	width: 100%;
+	height: 50%; 
+	top: 50%;
+}
+section.features .service:hover .service-img img{ 
+	background:#e5e5e5;
+}
+
+
+/* Information -----------------------------------*/
+ section.info{
+	position: relative;
+	z-index: 2222;
+	background: #fff;
+
+}
+section.info h1{
+    color: #313538;
+    font-weight: bold;
+    margin-top: 109px;
+}
+section.info .bx-wrapper .bx-viewport {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 0 solid #FFFFFF;
+    box-shadow: 0 0 0 #CCCCCC;
+}
+ 
+
+
+/* Pricing Table ---------------------------------*/
+
+section.pricing h1{
+    margin-top: 96px;
+
+}
+section.pricing .pricing-table li.price{
+    color: white;
+	text-transform:capitalize;
+	font-weight:normal;
+	font-size:36px;
+	text-shadow:none;
+
+}
+section.pricing .pricing-table li.price{
+    color: #373e48;
+	margin: 10px 0 0 0;
+}
+section.pricing .box_span{
+    float: left;
+    margin-left: 0;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+	width: 20%;
+}
+section.pricing .pricing-table{
+    padding: 0 15px;
+    margin-bottom: 55px;
+}
+section.pricing .pricing-table .nav-stacked {
+    border: 1px solid #e4e4e6;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+section.pricing .pricing-table li {
+    color: #8f9394;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid #e4e4e6;
+    position: relative;
+}
+section.pricing .pricing-table li i.fa-info-circle {
+    position: absolute;
+    right: 4px;
+    font-weight: normal;
+    color: #eee;
+}
+section.pricing .pricing-table li i.fa-info-circle:hover {
+    color: #888;
+}
+section.pricing .pricing-table .nav-stacked.features li{
+    font-weight: bold;
+    
+}
+
+
+section.pricing .pricing-table li.nav-header {
+    color: #626262;
+    font-size: 24px;
+    margin: 0;
+    background: #373e48;
+    text-shadow:none;
+    color:#fff;
+    text-transform:capitalize;
+    padding:15px;
+}
+
+section.pricing .pricing-table li.nav-header-empty {
+    color: #626262;
+    font-size: 27px;
+    margin: 0;
+    background: #373e48;
+    text-shadow:none;
+    color:#fff;
+    text-transform:capitalize;
+    padding:15px;
+    height:81px;
+}
+
+section.pricing .pricing-table .nav-stacked li.nav-header span {
+    color: #626262;
+    display: block;
+    font-size: 23px;
+    font-weight: normal;
+}
+
+section.pricing .pricing-table p {
+	text-align:center;
+	margin: 20px 0 20px 0;
+}
+section.pricing .pricing-table a.btn-box {
+    color: #FFFFFF;
+	text-transform:uppercase;
+	text-shadow:none;
+    background: #9B9EA3;
+    border: none;
+  	-webkit-border-radius: 2px; 
+ 	 -moz-border-radius: 2px; 
+  	border-radius: 2px; 
+    font-size: 14px;
+    font-weight: bold;
+	padding:15px 26px;
+	margin: 0 auto;
+    width: 30%;
+}
+section.pricing .pricing-table a.btn-box:hover {
+    color: #FFFFFF;
+    background-image: none;
+}
+
+section.pricing .pricing-table li i {
+    font-weight: bold;
+}
+section.pricing .pricing-table li i.icon-check,
+section.pricing .pricing-table li.check
+{
+    color: #00CD00;
+}
+section.pricing .pricing-table li i.icon-cancel {
+    color: #FF0000;
+}
+section.pricing .pricing-table li.na {
+    color: #ddd;
+}
+
+
+
+
+/* CTA -------------------------------------------*/
+section.cta{
+	background-position:0 0;
+	background-repeat: repeat-x;
+	text-align: center;
+    height: 233px;
+}
+
+section.cta h1{
+    color: #fff;
+    font-weight: 100;
+	margin: 65px 0 20px;
+}
+section.cta  .control-group{
+    margin-bottom: 48px;
+    margin-top: 33px;
+}
+section.cta a{
+    background: #0e6e9a;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+	box-shadow: none;
+}
+section.cta a:hover{
+	background: #1180b4;
+}
+
+
+
+/* Footer ----------------------------------------*/
+footer{
+    background: url("img/footer_bg.png") repeat;
+	  padding: 0;
+}
+
+footer .content_social{
+    text-align: center;
+    margin: 0 auto;
+}
+
+ul.social-circled {
+	margin: 0 0 10px 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+ul.social-circled  li{
+	display: inline-block;
+	border: 2px solid #d5d6d5;
+	padding: 0;
+	border-radius: 50%;
+	margin: 20px 5px;
+	text-align: center;
+}
+ul.social-circled li a{
+    text-decoration: none !important;
+    display: block;
+    color: #d5d6d5;
+    text-align: center;
+    width: auto;
+    padding:15px 15px;
+}
+ul.social-circled li a i {
+	width: auto !important;
+	font-size: 18px;
+	
+}
+ul.social-circled li:hover {
+    background: none repeat scroll 0 0 transparent;
+}
+
+footer h6{
+  text-align: center;
+	font-size:11px;
+	text-transform:uppercase;
+	color:#8f9394;
+}
+
+/* Newsletter Page Styling */
+
+.newsletter-content{
+    padding-top: 50px;
+}
+
+
+a.scrollup{
+    height:32px;
+    width:32px;
+    color:#000;
+    font-size:1.8em;
+    line-height:32px;
+    text-align:center;
+    text-decoration:none;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    z-index:9999;
+    opacity:.3;
+}
+a.scrollup:hover{
+    opacity:1;
+    color:#000;
+}
+
+
+
+
+
+/* ============================== */
+/* 
+    Title: Playgrid-Landing Page
+    Color-files: Orange
+*/
+/* ============================== */
+
+.webui-popover-inverse {
+    background-color: #e45212;
+    color: #fff;
+}
+.webui-popover-inverse.right > .arrow, .webui-popover-inverse.right-top > .arrow, .webui-popover-inverse.right-bottom > .arrow, .webui-popover-inverse.right > .arrow:after, .webui-popover-inverse.right-top > .arrow:after, .webui-popover-inverse.right-bottom > .arrow:after {
+    border-right-color: #e45212;
+}
+section.pricing .pricing-table li:hover i.fa-info-circle {
+    color: #e45212;
+}
+.bg_color2{
+    background-color: #e45212;
+}
+
+header .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+    color: #e45212;
+}
+
+header .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    color: #e45212;
+}
+
+section.newsletter{
+    background-image: url("../../img/bg_notified-orange.png");
+      background-color: #e45212;
+    padding:50px;
+}
+
+section.newsletter form .btn-custom, section.cta a {
+    background-color: #9e3400;
+}
+
+section.newsletter form .btn-custom:hover, section.cta a:hover{
+     background-color: #cc4300;
+}
+
+span.underline {
+    background-color: #e45212;
+}
+
+section.features .services li .service:hover .service_description h4{
+    color: #e45212;
+}
+
+section.features .services li .service:hover .service_description p{
+    color: #e45212;
+}
+
+
+section.pricing .pricing-table a.btn-box:hover {
+    background-color: #e45212;
+}
+
+section.pricing .pricing-table .box_span:hover .nav-stacked:not(.features) li.nav-header{
+    background: #e45212;
+}
+
+
+section.cta{
+    background-color:#e45212;
+    background-image: url("../../img/bg_notified-orange.png");
+}
+
+ul.social-circled li:hover a {
+    color: #e45212;
+}
+
+
+
+

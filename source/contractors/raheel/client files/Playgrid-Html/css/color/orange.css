@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+/* ============================== */
+/* 
+	Title: Playgrid-Landing Page
+	Color: Orange
+*/
+/* ============================== */
+
+.webui-popover-inverse {
+    background-color: #e45212;
+    color: #fff;
+}
+.webui-popover-inverse.right > .arrow, .webui-popover-inverse.right-top > .arrow, .webui-popover-inverse.right-bottom > .arrow, .webui-popover-inverse.right > .arrow:after, .webui-popover-inverse.right-top > .arrow:after, .webui-popover-inverse.right-bottom > .arrow:after {
+    border-right-color: #e45212;
+}
+section.pricing .pricing-table li:hover i.fa-info-circle {
+    color: #e45212;
+}
+.bg_color2{
+    background-color: #e45212;
+}
+
+header .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+    color: #e45212;
+}
+
+header .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    color: #e45212;
+}
+
+section.newsletter{
+    background-image: url("../../img/bg_notified-orange.png");
+	  background-color: #e45212;
+    padding:50px;
+}
+
+section.newsletter form .btn-custom, section.cta a {
+    background-color: #9e3400;
+}
+
+section.newsletter form .btn-custom:hover, section.cta a:hover{
+	 background-color: #cc4300;
+}
+
+span.underline {
+    background-color: #e45212;
+}
+
+section.features .services li .service:hover .service_description h4{
+    color: #e45212;
+}
+
+section.features .services li .service:hover .service_description p{
+    color: #e45212;
+}
+
+
+section.pricing .pricing-table a.btn-box:hover {
+    background-color: #e45212;
+}
+
+section.pricing .pricing-table .box_span:hover .nav-stacked:not(.features) li.nav-header{
+    background: #e45212;
+}
+
+
+section.cta{
+	background-color:#e45212;
+	background-image: url("../../img/bg_notified-orange.png");
+}
+
+ul.social-circled li:hover a {
+    color: #e45212;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
